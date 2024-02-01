@@ -1,0 +1,8 @@
+python-dotenv
+openai
+screeninfo
+pdfservices-sdk
+sv-ttk
+requirements
+fitz
+matplotlib
