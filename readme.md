@@ -19,7 +19,7 @@
 
 </div>
 
-<img src="/assets/architecture.png" width=100%>
+<img src="architecture.png" width=100%>
 
 </div>
 
