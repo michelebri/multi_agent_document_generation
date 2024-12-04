@@ -66,6 +66,6 @@ Upload a PDF from your local files to begin the creation process. After providin
 # Example
 </div>
 
-<img src="example.png" width=100%>
+<img src="output.png" width=100%>
 
 </div>
