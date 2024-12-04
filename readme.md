@@ -50,3 +50,22 @@ Create a conda environment
 conda create -n nome_env python=3.10 && conda activate nome_env
 pip install -r requirements.txt
 ```
+Follow the guide to create an adobe API key:
+```
+https://developer.adobe.com/document-services/docs/overview/pdf-services-api/quickstarts/python/
+```
+Create you openai api key
+
+Run the code with 
+```
+python generate.py
+```
+
+Upload a PDF from your local files to begin the creation process. After providing a prompt, you can optionally start without any input by clicking "Start the Creation Process." On the right, you will see the document's sections, where you can choose to modify or skip each section. In the first text box, you'll find suggestions from the Information Retrieval Agent. You can add the requested information and customize the document with your own data.
+
+# Example
+</div>
+
+<img src="example.png" width=100%>
+
+</div>
