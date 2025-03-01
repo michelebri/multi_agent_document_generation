@@ -3,6 +3,6 @@ openai
 screeninfo
 pdfservices-sdk
 sv-ttk
-requirements
-fitz
+PyMuPDF
+reportlab
 matplotlib

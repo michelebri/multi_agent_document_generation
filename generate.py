@@ -40,11 +40,11 @@ class Generation():
 
     def open_prompt_window(self):
         #chosee here the pdf not in the create_document function TODO : CHANGE
-        #self.pdf_path = filedialog.askopenfilename(initialdir="dataset", title="Select gc game file", filetypes=(("pdf files", "*.pdf"), ("all files", "*.*")))
-        self.pdf_path = "dataset/cover-letter-template-33250.pdf"
+        self.pdf_path = filedialog.askopenfilename(initialdir="dataset", title="Select gc game file", filetypes=(("pdf files", "*.pdf"), ("all files", "*.*")))
+        #self.pdf_path = "dataset/cover-letter-template-33250.pdf"
         #TODO: Also for the json_path, use the structure extacture to obtain the path
-        #self.json_path = self.structureExtractor.extract_structure(self.pdf_path)
-        self.json_path = "dataset/json/cover-letter-template-33250.json"
+        self.json_path = self.structureExtractor.extract_structure(self.pdf_path)
+        #self.json_path = "dataset/json/cover-letter-template-33250.json"
         #self.pdf_path = "dataset/Overleaf/Letter/hust-recommendation-letter-template.pdf"
         
         #Create conversiontal GUI to inteact with LLMs

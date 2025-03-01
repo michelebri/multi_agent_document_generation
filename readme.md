@@ -47,7 +47,7 @@ git clone https://github.com/michelebri/multi_agent_document_generation
 
 Create a conda environment
 ```
-conda create -n nome_env python=3.10 && conda activate nome_env
+conda create -n nome_env python=3.8 && conda activate nome_env
 pip install -r requirements.txt
 ```
 Follow the guide to create an adobe API key:
